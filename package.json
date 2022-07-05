@@ -16,6 +16,7 @@
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
+    "@commitlint/config-conventional": "^12.1.4",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-plugin-router": "~5.0.0",
@@ -37,7 +38,7 @@
   },
   "config": {
     "commitizen": {
-    "path": "node_modules/cz-customizable"
+      "path": "node_modules/cz-customizable"
     }
-    }
+  }
 }
